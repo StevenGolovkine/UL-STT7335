@@ -1,0 +1,4 @@
+- source: project
+  netlify:
+    - id: 56f9c8f7-3076-486a-b957-0dc0599f57b0
+      url: https://stt7335.netlify.app
