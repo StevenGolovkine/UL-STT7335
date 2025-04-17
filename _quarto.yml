@@ -2,20 +2,47 @@ project:
   type: website
 
 website:
-  title: "STT7335"
-  navbar:
-    left:
+  title: "STT-7335: Méthodes d'analyse de données"
+  page-navigation: true
+  site-url: https://stt7335.netlify.app
+  repo-url: https://github.com/StevenGolovkine/UL-STT7335
+  repo-actions: [issue, source]
+  open-graph: true
+
+  page-footer: 
+    center: "2025 | <strong>Steven Golovkine</strong> | <a class='link-footer' href='https://creativecommons.org/licenses/by-nc-sa/4.0/'>CC BY-NC-SA 4.0</a>"
+
+  sidebar: 
+    logo: "./include/logo.png"
+    pinned: true
+    align: center
+    toc-location: right
+    search: true
+    collapse-level: 1
+    tools: 
+      - icon: github
+        href: https://github.com/StevenGolovkine/UL-STT7335
+        text: "Github organization"
+    contents:
       - href: index.qmd
         text: Home
       - about.qmd
 
+bibliography: ./include/biblio.bib
+
 format:
   html:
     theme:
-      - cosmo
-      - brand
-    css: styles.css
+      light: ./include/ulaval.scss
+      dark: ./include/ulaval-dark.scss
+    code-copy: true
+    code-overflow: wrap 
     toc: true
+    smooth-scroll: true
+    link-external-newwindow: true
+    include-after-body: include/webex.js
 
+freeze: auto
+editor: visual
 
 
