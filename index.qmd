@@ -1,5 +1,5 @@
 ---
-title: "STT2200"
+title: "STT7335"
 ---
 
 C'est un site Quarto.
