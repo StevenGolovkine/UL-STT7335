@@ -1,7 +1,7 @@
 ---
-title: "STT7335"
+title: "STT2200"
 ---
 
-This is a Quarto website.
+C'est un site Quarto.
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+Pour plus d'information sur Quarto <https://quarto.org/docs/websites>.

@@ -1,5 +1,5 @@
 ---
-title: "About"
+title: "À propos"
 ---
 
-This webiste has been built using Quarto.
+Ce site a été créé avec Quarto.

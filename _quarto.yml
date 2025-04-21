@@ -1,5 +1,21 @@
 project:
   type: website
+  output-dir: ./_site
+
+babelquarto:
+  languagecodes:
+  - name: en
+    text: "English"
+  - name: fr
+    text: "Français"
+  mainlanguage: 'fr'
+  languages: ['en']
+  languagelinks: sidebar
+title-en: "STT-7335: Data Analysis Methods"
+description-en: "Website for STT-7335"
+author-en: "Steven Golovkine"
+lang: fr
+
 
 website:
   title: "STT-7335: Méthodes d'analyse de données"
@@ -9,7 +25,7 @@ website:
   repo-actions: [issue, source]
   open-graph: true
 
-  page-footer: 
+  page-footer:
     center: "2025 | <strong>Steven Golovkine</strong> | <a class='link-footer' href='https://creativecommons.org/licenses/by-nc-sa/4.0/'>CC BY-NC-SA 4.0</a>"
 
   sidebar: 
@@ -44,5 +60,3 @@ format:
 
 freeze: auto
 editor: visual
-
-
